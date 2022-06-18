@@ -97,19 +97,19 @@
     --------------------*/
     // For demo preview
     var today = new Date();
-    var dd = String(today.getDate()).padStart(2, '0');
-    var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-    var yyyy = today.getFullYear();
+    var dd = "11";
+    var mm = "8";   
+    var yyyy = 2022;
 
     if(mm == 12) {
         mm = '01';
         yyyy = yyyy + 1;
     } else {
-        mm = parseInt(mm) + 1;
-        mm = String(mm).padStart(2, '0');
+        mm = parseInt(mm);
+        mm = String(mm);
     }
     var timerdate = mm + '/' + dd + '/' + yyyy;
-    // For demo preview end
+    // For demo preview endq
     
 
     // Use this for real timer date

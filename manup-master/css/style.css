@@ -79,14 +79,14 @@ h6 {
 p {
 	font-size: 16px;
 	font-family: "Work Sans", sans-serif;
-	color: #6a6b7c;
+	color: #ffffff;
 	font-weight: 400;
 	line-height: 28px;
 	margin: 0 0 15px 0;
 }
 
 img {
-	max-width: 100%;
+	max-width: 90%;
 }
 
 input:focus,
@@ -171,8 +171,8 @@ ol {
 .price-item .tr-tag,
 .schedule-tab .nav-tabs .nav-item .nav-link.active,
 .site-btn {
-	background-image: -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%), -o-linear-gradient(330deg, #ee8425 0%, #f9488b 100%);
-	background-image: linear-gradient(120deg, #ee8425 0%, #f9488b 100%), linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+	
+	background-image: -webkit-gradient(linear, left top, right top, from(#6c38b6), to(#9c27b0)), -webkit-gradient(linear, left top, right top, from(#8777F2), to(#9c27b0));
 }
 
 /* buttons */
@@ -185,9 +185,8 @@ ol {
 	color: #ffffff;
 	text-align: center;
 	border-radius: 50px;
-	background-image: -webkit-gradient(linear, left top, right top, from(#ee8425), to(#f9488b)), -webkit-gradient(linear, left top, right top, from(#ee8425), to(#f9488b));
-	background-image: -o-linear-gradient(left, #ee8425 0%, #f9488b 100%), -o-linear-gradient(left, #ee8425 0%, #f9488b 100%);
-	background-image: linear-gradient(to right, #ee8425 0%, #f9488b 100%), linear-gradient(to right, #ee8425 0%, #f9488b 100%);
+	background-image: -webkit-gradient(linear, left top, right top, from(#6c38b6), to(#4630D9)), -webkit-gradient(linear, left top, right top, from(#8777F2), to(#4630D9));
+	background-image: -o-linear-gradient(left, #8777F2 0%, #6c38b6 100%), -o-linear-gradient(left, #8777F2 0%, #8777F2 100%);
 }
 
 .site-btn {
@@ -298,7 +297,7 @@ ol {
 .nav-menu .mainmenu ul li {
 	display: inline-block;
 	list-style: none;
-	margin-right: 40px;
+	margin-right: 30px;
 	position: relative;
 }
 
@@ -370,7 +369,7 @@ ol {
 	bottom: 36px;
 	height: 2px;
 	width: 100%;
-	background: #F44949;
+	background: #4630D9;
 	content: "";
 	opacity: 0;
 	-webkit-transition: all 0.3s;
@@ -395,18 +394,19 @@ ol {
 }
 
 .hero-section .hero-text {
-	padding-top: 184px;
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 .hero-section .hero-text span {
 	font-size: 16px;
-	color: #f44949;
+	color: #F2A649;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
 
 .hero-section .hero-text h2 {
-	font-size: 60px;
+	font-size: 50px;
 	color: #ffffff;
 	line-height: 72px;
 	font-weight: 600;
@@ -524,7 +524,7 @@ ol {
 }
 
 .ha-text ul li span {
-	color: #f44949;
+	color: #F2A649;
 }
 
 .ha-text .ha-btn {
@@ -615,7 +615,7 @@ ol {
 
 .member-item .mi-text span {
 	font-size: 16px;
-	color: #f44949;
+	color: #F2A649;
 	display: block;
 }
 
@@ -731,7 +731,7 @@ ol {
 }
 
 .schedule-tab .st-content .sc-text ul li i {
-	color: #f44949;
+	color: #F2A649;
 	font-size: 14px;
 }
 
@@ -749,7 +749,7 @@ ol {
 }
 
 .schedule-tab .st-content .sc-widget li i {
-	color: #f44949;
+	color: #F2A649;
 	position: absolute;
 	left: 0;
 	top: 7px;
@@ -1123,9 +1123,9 @@ ol {
 -----------------------*/
 
 .footer-section {
-	background: #171822;
-	padding-top: 50px;
-	padding-bottom: 60px;
+	background: #7f32b4;
+	/*padding-top: 50px;*/
+	padding-bottom: 25px;
 }
 
 .partner-logo {
@@ -1191,7 +1191,7 @@ ol {
 }
 
 .footer-text .copyright-text i {
-	color: #f44949;
+	color: #F2A649;
 }
 
 .footer-text .copyright-text a {
@@ -1199,7 +1199,7 @@ ol {
 }
 
 .footer-text .copyright-text a:hover {
-	color: #f44949;
+	color: #F2A649;
 }
 
 .footer-text .ft-social a {
@@ -1209,8 +1209,8 @@ ol {
 	text-align: center;
 	line-height: 40px;
 	font-size: 16px;
-	color: #a3a3ae;
-	border: 1px solid #45464e;
+	color:#ffffff;
+	border: 1px solid #ffffff;
 	border-radius: 50%;
 	margin-right: 15px;
 }

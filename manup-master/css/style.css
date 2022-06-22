@@ -547,7 +547,10 @@ ol {
 /*---------------------
   Member Item
 -----------------------*/
-
+.centerImg{
+	display: flex;
+    justify-content: center;
+}
 .team-member-section {
 	overflow: hidden;
 }
@@ -619,6 +622,42 @@ ol {
 	display: block;
 }
 
+/*----------------------
+comunidades 
+------------------------*/
+.rowCard {
+	--bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+	justify-content: center;
+}
+
+#supporters {
+    padding: 60px 0;
+}
+
+
+.section-header {
+    margin-bottom: 60px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.section-with-bg {
+	background-color: #ffffff3d;
+	margin-bottom: 60px;
+	margin-top: 60px;
+  }
+
+.section-header {
+	margin-bottom: 60px;
+	position: relative;
+	padding-bottom: 20px;
+  }
 /*---------------------
   Schedule Section
 -----------------------*/

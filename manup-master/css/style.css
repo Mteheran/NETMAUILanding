@@ -364,7 +364,7 @@ a {
 }
 
 .nav-menu .mainmenu ul li .dropdown li a:hover {
-	color: #f44949;
+	color: #f29830;
 }
 
 .nav-menu .mainmenu ul li .dropdown li a:after {
@@ -2497,12 +2497,12 @@ comunidades
 	}
 	.slicknav_nav a:hover {
 		border-radius: 0;
-		background: #f44949;
+		background: #f29830;
 		color: #ffffff;
 	}
 	.slicknav_nav .slicknav_row:hover {
 		border-radius: 0;
-		background: #f44949;
+		background: #f29830;
 		color: #ffffff;
 	}
 	.member-item .mi-text {

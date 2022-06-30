@@ -2323,6 +2323,7 @@ comunidades
 @media only screen and (max-width: 991px) {
 	.banner{
 		height: 150px;
+		text-align: center;
 	}
 
 	.schedule-tab .st-content .sc-pic {
@@ -2400,6 +2401,7 @@ comunidades
 
 	.banner{
 		height: 150px;
+		text-align: center;
 	}
 	.nav-menu .primary-btn.top-btn {
 		display: none;
@@ -2426,6 +2428,7 @@ comunidades
 @media only screen and (max-width: 767px) {
 	.banner{
 		height: 150px;
+		text-align: center;
 	}
 
 	.counter-section .cd-timer .cd-item {
@@ -2525,6 +2528,7 @@ comunidades
 @media only screen and (max-width: 479px) {
 	.banner{
 		height: 150px;
+		text-align: center;
 	}
 	
 	.bh-text h2,

@@ -579,10 +579,10 @@ a {
 /*---------------------
   Member Item
 -----------------------*/
-.centerImg{
+/* .centerImg{
 	display: flex;
     justify-content: center;
-}
+} */
 .team-member-section {
 	overflow: hidden;
 }

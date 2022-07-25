@@ -32,6 +32,7 @@
 /* Template default CSS
 /*----------------------------------------*/
 
+
 html,
 body {
 	height: 100%;
@@ -79,7 +80,7 @@ h6 {
 p {
 	font-size: 18px;
 	font-family: "Work Sans", sans-serif;
-	color: #ffffff;
+	color: #000000;
 	font-weight: 400;
 	line-height: 28px;
 	margin: 0 0 15px 0;

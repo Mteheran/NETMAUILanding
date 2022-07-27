@@ -110,6 +110,15 @@ a:focus {
 	color: #fff;
 }
 
+.sponsor{
+	color: #f29830;
+    text-decoration: none;
+    background-color: transparent;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
 ul,
 ol {
 	padding: 0;
